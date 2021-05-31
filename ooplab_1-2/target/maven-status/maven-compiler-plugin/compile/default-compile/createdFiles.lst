@@ -1,0 +1,11 @@
+by/bsuir/models/Drawer.class
+by/bsuir/models/figures/Point.class
+by/bsuir/models/figures/Line.class
+by/bsuir/models/figures/Triangle.class
+by/bsuir/models/figures/Rectangle.class
+by/bsuir/controllers/MainController.class
+by/bsuir/models/figures/Square.class
+by/bsuir/models/figures/Circle.class
+by/bsuir/models/figures/Figure.class
+by/bsuir/models/figures/Ellipse.class
+by/bsuir/App.class

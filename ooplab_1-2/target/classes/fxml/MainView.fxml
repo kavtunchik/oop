@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="by.bsuir.controllers.MainController">
+    <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="60.0" spacing="15.0">
+            <children>
+                <Label text="Figure:" />
+                <ChoiceBox fx:id="figureChoiceBox" prefWidth="150.0" />
+            </children>
+            <padding>
+                <Insets left="15.0" right="15.0" />
+            </padding>
+        </HBox>
+        <Pane fx:id="canvasPane" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+            <children>
+                <Canvas fx:id="canvas" height="200.0" width="200.0" />
+            </children>
+        </Pane>
+    </children>
+</VBox>
